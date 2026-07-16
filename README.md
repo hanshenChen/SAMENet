@@ -7,14 +7,14 @@
 Unlike existing crack benchmarks captured from close-range, nadir (top-down) views, HRCrack4K provides **forward-facing oblique-view imagery** acquired from in-service vehicles, introducing realistic challenges such as perspective distortion, scale variation, complex background clutter, and variable illumination. This repository also hosts the official implementation of **SAMENet**, our SAM3-based segmentation framework.
 
 ---
-
-<img src="./data_intr.jpg" width="600">
+<p align="center">
+<img src="./data_intr.jpg" width="500">
+</p>
 
 ## Highlights
 
 - **2,226** high-resolution (4K, 3,840 × 2,160) crack-containing images with **pixel-level binary annotations**
 - **6,678** non-overlapping road-region patches ready for training and evaluation
-- **Two camera-mounting configurations** (roof-mounted and in-cabin), enabling viewpoint-sensitivity studies
 - Full-frame mirrorless cameras (Sony Alpha 7 IV / Alpha 9 III, FE 35 mm f/1.8 prime lens), recorded in **XAVC S-I 4K** with intra-frame coding to minimize compression artifacts
 
 ## Comparison with Existing On-Board Crack Datasets
@@ -58,11 +58,9 @@ HRCrack4K/
     └── masks/
 ```
 
-[Download HRCrack4K Dataset](https://drive.google.com/file/d/1EdfHX78Ov5sFw90HSN2JRww5RWPs1Zc1/view?usp=drive_link)
+[Download HRCrack4K Dataset]([https://drive.google.com/file/d/1EdfHX78Ov5sFw90HSN2JRww5RWPs1Zc1/view?usp=drive_link](https://drive.google.com/file/d/1bi4_ncqx7vcuo-XZqH7pUi6DzbgT8CQ7/view?usp=drive_link))
 
 Please open an issue if the link becomes unavailable.
-
-## License
 
 The HRCrack4K dataset is released for **non-commercial academic research only** under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. <!-- TODO: confirm/replace with your intended license -->
 
