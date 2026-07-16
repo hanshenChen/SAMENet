@@ -1,10 +1,13 @@
-# HRCrack4K: A High-Resolution On-Board Road Crack Segmentation Dataset
+# On-Board Road Crack Inspection via Adaptation of the Segment Anything Model
+
+**This repository also hosts the official implementation of SAMENet, our SAM3-based segmentation framework.**
+
+> 🚧 **Code coming soon.**
+> ✅**HRCrack4K: A High-Resolution On-Board Road Crack Segmentation Dataset**
 
 **HRCrack4K** is a large-scale, high-resolution benchmark for **pixel-level road crack segmentation from vehicle-mounted (on-board) cameras**. It accompanies our paper:
 
-> **On-Board Road Crack Inspection via Adaptation of the Segment Anything Model**
-
-Unlike existing crack benchmarks captured from close-range, nadir (top-down) views, HRCrack4K provides **forward-facing oblique-view imagery** acquired from in-service vehicles, introducing realistic challenges such as perspective distortion, scale variation, complex background clutter, and variable illumination. This repository also hosts the official implementation of **SAMENet**, our SAM3-based segmentation framework.
+Unlike existing crack benchmarks captured from close-range, nadir (top-down) views, HRCrack4K provides **forward-facing oblique-view imagery** acquired from in-service vehicles, introducing realistic challenges such as perspective distortion, scale variation, complex background clutter, and variable illumination. 
 
 ---
 <p align="center">
