@@ -58,7 +58,7 @@ HRCrack4K/
     └── masks/
 ```
 
-[Download HRCrack4K Dataset]([https://drive.google.com/file/d/1EdfHX78Ov5sFw90HSN2JRww5RWPs1Zc1/view?usp=drive_link](https://drive.google.com/file/d/1bi4_ncqx7vcuo-XZqH7pUi6DzbgT8CQ7/view?usp=drive_link))
+[Download HRCrack4K Dataset](https://drive.google.com/file/d/1bi4_ncqx7vcuo-XZqH7pUi6DzbgT8CQ7/view?usp=drive_link)
 
 Please open an issue if the link becomes unavailable.
 
