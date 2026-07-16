@@ -8,12 +8,12 @@ Unlike existing crack benchmarks captured from close-range, nadir (top-down) vie
 
 ---
 
-![Demo](./data_intr.jpg)
+<img src="./data_intr.jpg" width="600">
 
 ## Highlights
 
 - **2,226** high-resolution (4K, 3,840 × 2,160) crack-containing images with **pixel-level binary annotations**
-- **6,678** non-overlapping road-region patches (1,280 × 1,280 pixels) ready for training and evaluation
+- **6,678** non-overlapping road-region patches ready for training and evaluation
 - **Two camera-mounting configurations** (roof-mounted and in-cabin), enabling viewpoint-sensitivity studies
 - Full-frame mirrorless cameras (Sony Alpha 7 IV / Alpha 9 III, FE 35 mm f/1.8 prime lens), recorded in **XAVC S-I 4K** with intra-frame coding to minimize compression artifacts
 
@@ -33,7 +33,7 @@ Imagery was collected by a fleet of four vehicles (one sedan and three commercia
 ## Preprocessing and Splits
 
 1. A fixed-size Region of Interest (ROI) encompassing the primary road surface is extracted from each 3,840 × 2,160 frame to suppress non-road distractors (sky, buildings, ego-vehicle hood).
-2. Each road ROI is cropped into **three non-overlapping 1,280 × 1,280 patches** (6,678 patches in total).
+2. Each road ROI is cropped into **three non-overlapping patches** (6,678 patches in total).
 3. For the experiments in the paper, patches are resized to **640 × 640** at training/inference time.
 
 The dataset is partitioned into training, validation, and test sets in a **70:15:15** ratio, **stratified by camera-mounting configuration**:
@@ -58,9 +58,7 @@ HRCrack4K/
     └── masks/
 ```
 
-## Download
-
-- **[Download link]** 
+[Download HRCrack4K Dataset](https://drive.google.com/file/d/1EdfHX78Ov5sFw90HSN2JRww5RWPs1Zc1/view?usp=drive_link)
 
 Please open an issue if the link becomes unavailable.
 
